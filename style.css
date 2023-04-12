@@ -4,11 +4,13 @@
     box-sizing: border-box;
     font-family: 'Neucha', 'sans-serif';
 }
+
 .logo {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
+
   body{
     background-image: url("images/abstract-financial-graph-uptrend-line-260nw-1534094558.png");
     background-size: cover;
@@ -16,25 +18,154 @@
     background-position: center;
     background-attachment: fixed;
 }
+
 .buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
-    padding-top: 15px;
+    padding-top: 20px;
+    background-color: black;
   }
+
+  .link {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+  }
+
+  .box {
+    width: 75%;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 15%;
+    border-radius: 10px;
+    }
+
+.box1 {
+width: 75%;
+height: 60px;
+background-color: white;
+position: absolute;
+left: 0;
+right: 0;
+margin: 0 auto;
+top: 27%;
+border-radius: 10px;
+}
+
+.box2 {
+  width: 75%;
+  height: 60px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 37%;
+  border-radius: 10px;
+  }
+  
+ 
+  .box3 {
+  width: 75%;
+  height: 60px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 47%;
+  border-radius: 10px;
+  }
+    
+
+
+  .box4 {
+  width: 75%;
+  height: 60px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 57%;
+  border-radius: 10px;
+  }
+
+  .box5 {
+    width: 75%;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 67%;
+    border-radius: 10px;
+    }
+
+    .box6 {
+      width: 75%;
+      height: 60px;
+      background-color: white;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: 77%;
+      border-radius: 10px;
+      }
+      
   .crypto {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     list-style-type: none;
-    padding-top: 100px;
-  }
-  ul {
-    padding-left: 40px;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    list-style-type: square;
- }
+    padding-top: 13px;
+    color: black;
+    font-size: 30px;
+    }  
+
+.text1 {
+  padding-left: 200px;
+}
+
+.img {
+  padding-left: 30px;
+  font-size: 15px;
+}
+.img:hover {
+	color: white;
+	background-color: limegreen;
+	transition: linear 0.2s;
+  border-radius: 10px;
+  width:110px;
+}
+
+.text01 {
+  padding-left: 20px;
+}
+
+.text02 {
+  padding-left: 180px;
+}
+
+.text03 {
+  padding-left: 230px;
+}
+
+.text04 {
+  padding-left: 220px;
+}
+
+.text2 {
+  padding-left: 220px;
+}
+
+.text3 {
+  padding-left: 280px;
+}
